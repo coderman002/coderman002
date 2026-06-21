@@ -133,6 +133,62 @@
 
 ---
 
+### 🌐 [Autonomous Web Agent](https://github.com/coderman002/autonomous-web-agent)
+> An LLM-powered browser automation agent that plans steps, scans DOM structures, executes navigation tasks, and self-corrects based on interactive screenshots
+
+[![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)](https://playwright.dev)
+[![OpenAI](https://img.shields.io/badge/OpenAI-412AC4?style=flat-square&logo=openai&logoColor=white)](https://openai.com)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![CI](https://github.com/coderman002/autonomous-web-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/coderman002/autonomous-web-agent/actions)
+
+**Architecture:** Stateful agentic browser loop scanning HTML DOM and executing node coordinates  
+**Stack:** Python · Playwright · Streamlit (port 8504) · GPT-4o-mini · Pytest  
+**Highlights:** Interactive dark UI dashboard · Real-time screenshot logging · Sandboxed mock browser walkthroughs · Fully containerized
+
+---
+
+### 🔍 [Agentic Code Reviewer](https://github.com/coderman002/agentic-code-reviewer)
+> An automated code auditing assistant that parses git diff files, runs local static checkers, and posts intelligent review comments directly to the GitHub PR API
+
+[![GitHub API](https://img.shields.io/badge/GitHub_API-181717?style=flat-square&logo=github&logoColor=white)](https://docs.github.com/en/rest)
+[![OpenAI](https://img.shields.io/badge/OpenAI-412AC4?style=flat-square&logo=openai&logoColor=white)](https://openai.com)
+[![Ruff](https://img.shields.io/badge/Ruff-E92063?style=flat-square)](https://github.com/astral-sh/ruff)
+[![CI](https://github.com/coderman002/agentic-code-reviewer/actions/workflows/ci.yml/badge.svg)](https://github.com/coderman002/agentic-code-reviewer/actions)
+
+**Architecture:** Git diff parser with regex credential security scanner and LLM reviewer  
+**Stack:** Python · PyGithub · OpenAI API · Ruff · Pytest  
+**Highlights:** Multi-line PR comments posting · Token leak protection rules · Complete local integration testing
+
+---
+
+### 📊 [GenAI SQL Analyst](https://github.com/coderman002/genai-sql-analyst)
+> An intelligent database exploration assistant running LLM self-correction loops to synthesize database insights, executing and validating SQL against local SQLite databases
+
+[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)](https://sqlite.org)
+[![OpenAI](https://img.shields.io/badge/OpenAI-412AC4?style=flat-square&logo=openai&logoColor=white)](https://openai.com)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![CI](https://github.com/coderman002/genai-sql-analyst/actions/workflows/ci.yml/badge.svg)](https://github.com/coderman002/genai-sql-analyst/actions)
+
+**Architecture:** SQL generator and executor with database schema reflection and syntax self-correction  
+**Stack:** Python · SQL-Agent · Streamlit (port 8505) · Plotly Express · Ruff  
+**Highlights:** Glassmorphic dark UI · Dynamic chart generators (bar, pie, line) · Auto-retries on syntax tracebacks
+
+---
+
+### 🌐 [GraphRAG Knowledge Assistant](https://github.com/coderman002/graph-rag-knowledge-assistant)
+> A knowledge graph RAG pipeline that builds entity-relationship models from unstructured text and uses hybrid graph-vector query routing to solve multi-hop questions
+
+[![NetworkX](https://img.shields.io/badge/NetworkX-3776AB?style=flat-square&logo=python&logoColor=white)](https://networkx.org)
+[![OpenAI](https://img.shields.io/badge/OpenAI-412AC4?style=flat-square&logo=openai&logoColor=white)](https://openai.com)
+[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)](https://sqlite.org)
+[![CI](https://github.com/coderman002/graph-rag-knowledge-assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/coderman002/graph-rag-knowledge-assistant/actions)
+
+**Architecture:** LLM entity extractor feeding NetworkX graph workspace persisted in SQLite  
+**Stack:** Python · SQLite · NetworkX · Streamlit (port 8506) · Matplotlib  
+**Highlights:** Multi-hop ego-network traversals (2-hop max) · Real-time citation maps · Premium dark-theme dashboard
+
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
